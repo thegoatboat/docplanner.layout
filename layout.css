@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky; top: 0;
+    background-color: #FFFFFFFA;
+}
+
+header ul{
+    display: flex;   
+    list-style: none;
+}
+header ul li{
+    margin: 20px;
+    
+}
+#aboutus{
+    color: #00B39B;
+}
+li:hover{
+    color: #00B39B;
+}
+
+.parti-one{
+    text-align: center;
+    color: #747474;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+.parti-one h1{
+    
+    color: #00B39B;
+}
+.par{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.cartes{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cart1{
+    background-color: #00ccb1;border-radius: 8px ; width: 400px;height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+.cart2{
+    background-color: #3D83DF;border-radius: 8px ; width: 400px;height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: #fff;
+    padding: 20px;
+}
+.cart3{
+    background-color: #1B2734;border-radius: 8px ; width: 400px;height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: #fff;
+    padding: 20px;
+}
+.pat5{
+    display: flex;
+    justify-content: center;
+    
+}
+.pat5 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 1000px;
+    box-sizing: inherit;
+    color: rgb(116, 116, 116);
+    
+}
+
+.pat5 h1{
+    color: #00B39B;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    border: #3D83DF;
+}
+body{
+    max-width: 1350px;
+    margin: 0 auto;
+    position: relative;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+}
+::selection {
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;}
+.main-footer{
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    display: block;
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;    
+}
+.main-footer p{
+    list-style: none;
+}
